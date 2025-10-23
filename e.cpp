@@ -5,7 +5,7 @@ const int N = 2e5 + 20;
 #define mod 1000000007
 map<int,int> dp;
 void file(){
-    #ifdef velox
+    #ifdef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
